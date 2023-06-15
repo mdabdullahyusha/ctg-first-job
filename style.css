@@ -118,3 +118,108 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Aboout Part Start */
+.about_part {
+  padding: 60px 0;
+}
+.about_con_main {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.about_img,
+.about_con {
+  width: 50%;
+}
+.about_img img {
+  width: 100%;
+}
+.about_con h3 {
+  font-size: 26px;
+}
+.about_con p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 8px 0;
+}
+.about_btn {
+  height: 50px;
+  width: 250px;
+  background: linear-gradient(#9f6976, #cc8b79, #faae7b);
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #000;
+}
+/* Aboout Part End */
+
+/* Servie Part Start */
+.service_part {
+  padding: 60px 0;
+  background: #f2d5cf;
+}
+.service_head {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.service_head h3 {
+  font-size: 26px;
+}
+.service_con_main {
+  display: flex;
+  gap: 24px;
+}
+.service_con {
+  padding: 15px;
+  text-align: center;
+  background: #fff;
+  transition: 0.4s;
+}
+.service_icon {
+  height: 50px;
+  width: 50px;
+  background: linear-gradient(45deg, #9f6976, #cc8b79, #faae7b);
+  text-align: center;
+  margin: 0 auto;
+  line-height: 50px;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.service_con:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.service_btn {
+  height: 40px;
+  width: 180px;
+  background: #edaa79;
+  margin: auto;
+  display: block;
+  margin-top: 5px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #000;
+}
+/* Servie Part End */
+
+/* Company Logo Part Start */
+.company_part {
+  padding: 60px 0;
+}
+.company_logo_main {
+  display: flex;
+  gap: 24px;
+}
+.logo img {
+  width: 100%;
+}
+/* Company Logo Part End */
+
+/* Footer Part STart */
+.footer_part {
+  padding: 15px 0;
+  background: #f2d5cf;
+  text-align: center;
+}
+/* Footer Part End */
